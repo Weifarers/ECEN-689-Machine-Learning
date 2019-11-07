@@ -14236,7 +14236,7 @@ best validation accuracy achieved during cross-validation: 0.382000
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Explain-your-observations,--and-compare-with-Assignment-1">Explain your observations,  and compare with Assignment 1<a class="anchor-link" href="#Explain-your-observations,--and-compare-with-Assignment-1">&#182;</a></h2><p>Answer:</p>
-<p>With the permuted data, we actually see similar results in accuracy with respect to the prior assignment. However, it should be noted that if we were to train on permuted data, and then test and validate on normal data, we would, in theory, see drastically lower accuracies across the board. Even moreso, looking at the results of the learned weights, there's no distinguishing factors amongst any of them.</p>
+<p>With the permuted data, we actually see similar results in accuracy with respect to the prior assignment. Looking at the results of the learned weights, there's no distinguishing factors amongst any of them, which is interesting given that it still manages to identify a similar percentage of validation data. This shows the robustness of SVM against permuted data.</p>
 
 </div>
 </div>

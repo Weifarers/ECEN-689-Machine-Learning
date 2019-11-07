@@ -15352,7 +15352,7 @@ Iteration 7000, Epoch 10, Loss: 0.8691037893295288, Accuracy: 69.87442016601562,
 <h2 id="How-did-this-differ-from-the-non-permuted-data?">How did this differ from the non-permuted data?<a class="anchor-link" href="#How-did-this-differ-from-the-non-permuted-data?">&#182;</a></h2>
 </div>
 </div>
-</div>As can be seen from the above data, the training accuracy of the model increases as we increase the number of epochs, but the validation accuracy remains very low, relative to the non-permuted data, which peaked around 70% validation accuracy. As a direct result, we observe that while this CNN was decent at characterizing and identifying the original data from CIFAR-10, by permuting the pixels, it is awful at identifying images in the non-testing set.
+</div>As can be seen from the above data, the training accuracy of the model increases as we increase the number of epochs, but the validation accuracy remains very low, relative to the non-permuted data, which peaked around 70% validation accuracy. As a direct result, we observe that while this CNN was decent at characterizing and identifying the original data from CIFAR-10, by permuting the pixels, it is awful at identifying images in the non-testing set. This makes sense, as a CNN trains like a human does; if a human is given garbage input, it can't identify valid images.
     </div>
   </div>
 </body>
