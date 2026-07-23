@@ -10,7 +10,7 @@ defusedxml==0.5.0
 entrypoints==0.3
 future==0.17.1
 gitdb2==2.0.5
-GitPython==2.1.11
+GitPython==3.1.41
 idna==2.8
 ipykernel==5.1.0
 ipython==7.4.0
